@@ -10,7 +10,7 @@ body {
 .text-contaner{
     position: absolute;
     top: 100px;
-    left:650px;
+    right:200px;
     font-size: 40px;
     z-index: 30;
     font-weight: bold;
@@ -19,6 +19,7 @@ body {
 }
 .store-list-container{
     position: absolute;
+    right:200px;
     z-index: 30;
 }
 .search-box-container{
@@ -27,7 +28,7 @@ body {
     background-color: #454E53;
     position: absolute;
     display: flex;
-    left: 650px;
+    right: 8px;
     top: 150px;
     z-index: 30;
     align-items: center;
@@ -53,8 +54,50 @@ body {
     color: white;
     font-size: 25px;
 }
-
-.adress-list-container{
+.adress-list{
     position: absolute;
-    z-index: 30;
+    top: 210px;
+    right: 10px;
+    background-color: white;
+    width: 325px;
+    height: 350px;
+    overflow-y: scroll;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+.adress-container{
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    border-bottom: 1px solid #979797;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.adress-container span {
+    display: block;
+}
+.store-adress{
+    flex-grow: 1;
+}
+.adress-container {
+    font-size: 21px;
+    color: #514C4C;
+    margin-top: 30px;
+}
+
+.adress-pnumber {
+    color: #B5ADAD;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.store-index{
+    background-color: #454E53;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    color: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
 }
