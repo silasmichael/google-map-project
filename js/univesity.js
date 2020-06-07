@@ -2,7 +2,7 @@ universities=[{
     "recommendation": {},
     "name": "University of Dar es Salaam",
     "acronym":"UDSM",
-    "reg no":"001",
+    "reg_no":"001",
     "phoneNumber": "+255222410700",
     "coordinates": {
         "latitude": -6.780785,
@@ -54,7 +54,7 @@ universities=[{
     "recommendation": {},
     "name": "University of Dodoma",
     "acronym":"UDOM",
-    "reg no":"019",
+    "reg_no":"019",
     "phoneNumber": "+255262310003",
     "coordinates": {
         "latitude": -6.214177,
@@ -106,7 +106,7 @@ universities=[{
     "recommendation": {},
     "name": "State University of Zanzibar",
     "acronym":"SUZA",
-    "reg no":"010",
+    "reg_no":"010",
     "phoneNumber": "+255242230724",
     "coordinates": {
         "latitude": -6.165802,
@@ -158,7 +158,7 @@ universities=[{
     "recommendation": {},
     "name": "Sokoine University of Agriculture",
     "acronym":"SUA",
-    "reg no":"014",
+    "reg_no":"014",
     "phoneNumber": "+255232603511",
     "coordinates": {
         "latitude": -6.852164,
@@ -211,7 +211,7 @@ universities=[{
     "recommendation": {},
     "name": "The Open University of Tanzania",
     "acronym":"OUT",
-    "reg no":"003",
+    "reg_no":"003",
     "phoneNumber": "+255232603511",
     "coordinates": {
         "latitude": -6.783552,
@@ -263,7 +263,7 @@ universities=[{
     "recommendation": {},
     "name": "Nelson Mandela African Institute of Science and Technology",
     "acronym":"NM–AIST",
-    "reg no":"016",
+    "reg_no":"016",
     "phoneNumber": "+255272970007",
     "coordinates": {
         "latitude": -3.399486,
@@ -315,7 +315,7 @@ universities=[{
     "recommendation": {},
     "name": "Mbeya University of Science and Technology",
     "acronym":"MUST",
-    "reg no":"026",
+    "reg_no":"026",
     "phoneNumber": "+255252502861",
     "coordinates": {
         "latitude": -8.941853,
@@ -367,7 +367,7 @@ universities=[{
     "recommendation": {},
     "name": "Muhimbili University of Health and Allied Sciences",
     "acronym":"MUHAS",
-    "reg no":"015",
+    "reg_no":"015",
     "phoneNumber": "+255222151596",
     "coordinates": {
         "latitude": -6.807826,
@@ -419,7 +419,7 @@ universities=[{
     "recommendation": {},
     "name": "Ardhi University",
     "acronym":"ARU",
-    "reg no":"004",
+    "reg_no":"004",
     "phoneNumber": "+255222151596",
     "coordinates": {
         "latitude": -6.766172,
@@ -471,7 +471,7 @@ universities=[{
     "recommendation": {},
     "name": "Moshi Co-operative University",
     "acronym":"MoCU",
-    "reg no":"027",
+    "reg_no":"027",
     "phoneNumber": "+255272754401",
     "coordinates": {
         "latitude": -3.336594,
@@ -523,7 +523,7 @@ universities=[{
     "recommendation": {},
     "name": "Mzumbe University",
     "acronym":"MU",
-    "reg no":"011",
+    "reg_no":"011",
     "phoneNumber": "+255232931220",
     "coordinates": {
         "latitude": -6.923931,
@@ -575,7 +575,7 @@ universities=[{
     "recommendation": {},
     "name": "Hubert Kairuki Memorial University",
     "acronym":"HKMU",
-    "reg no":"005",
+    "reg_no":"005",
     "phoneNumber": "+255713278060",
     "coordinates": {
         "latitude": -6.773070,
@@ -627,7 +627,7 @@ universities=[{
     "recommendation": {},
     "name": "International Medical and Technological Universiy",
     "acronym":"IMTU",
-    "reg no":"006",
+    "reg_no":"006",
     "phoneNumber": "+255743400011",
     "coordinates": {
         "latitude": -6.710777,
@@ -679,7 +679,7 @@ universities=[{
     "recommendation": {},
     "name": "Tumaini University Makumira",
     "acronym":"TUMA",
-    "reg no":"007",
+    "reg_no":"007",
     "phoneNumber": "+255232931220",
     "coordinates": {
         "latitude": -3.371153,
@@ -731,7 +731,7 @@ universities=[{
     "recommendation": {},
     "name": "St. Augustine University of Tanzania",
     "acronym":"SAUT",
-    "reg no":"008",
+    "reg_no":"008",
     "phoneNumber": "+255736200943",
     "coordinates": {
         "latitude": -6.923931,
@@ -783,7 +783,7 @@ universities=[{
     "recommendation": {},
     "name": "Zanzibar University",
     "acronym":"ZU",
-    "reg no":"009",
+    "reg_no":"009",
     "phoneNumber": "+255772601303",
     "coordinates": {
         "latitude": -6.224787,
@@ -835,7 +835,7 @@ universities=[{
     "recommendation": {},
     "name": "Mount Meru University",
     "acronym":"MMU",
-    "reg no":"012",
+    "reg_no":"012",
     "phoneNumber": "+255272502412",
     "coordinates": {
         "latitude": -3.299985,
@@ -887,7 +887,7 @@ universities=[{
     "recommendation": {},
     "name": "University of Arusha",
     "acronym":"UoA",
-    "reg no":"013",
+    "reg_no":"013",
     "phoneNumber": "+255744952773",
     "coordinates": {
         "latitude": -3.327210,
@@ -939,7 +939,7 @@ universities=[{
     "recommendation": {},
     "name": "Teofilo Kisanji University",
     "acronym":"TEKU",
-    "reg no":"014",
+    "reg_no":"014",
     "phoneNumber": "+255252502682",
     "coordinates": {
         "latitude": -8.919544,
@@ -991,7 +991,7 @@ universities=[{
     "recommendation": {},
     "name": "Muslim University of Morogoro",
     "acronym":"MUM",
-    "reg no":"017",
+    "reg_no":"017",
     "phoneNumber": "+255715202911",
     "coordinates": {
         "latitude": -6.801203,
@@ -1043,7 +1043,7 @@ universities=[{
     "recommendation": {},
     "name": "St. John's University of Tanzania",
     "acronym":"SJUT",
-    "reg no":"018",
+    "reg_no":"018",
     "phoneNumber": "+255633280846",
     "coordinates": {
         "latitude": -6.198205,
@@ -1095,7 +1095,7 @@ universities=[{
     "recommendation": {},
     "name": "University of Bagamoyo",
     "acronym":"UoB",
-    "reg no":"020",
+    "reg_no":"020",
     "phoneNumber": "+255715673096",
     "coordinates": {
         "latitude": -6.708893,
@@ -1147,7 +1147,7 @@ universities=[{
     "recommendation": {},
     "name": "Eckernforde Tanga University",
     "acronym":"ETU",
-    "reg no":"021",
+    "reg_no":"021",
     "phoneNumber": "+255272645936",
     "coordinates": {
         "latitude": -5.101534,
@@ -1199,7 +1199,7 @@ universities=[{
     "recommendation": {},
     "name": "Catholic University of Health and Allied Sciences",
     "acronym":"CUHAS",
-    "reg no":"22",
+    "reg_no":"22",
     "phoneNumber": "+255282500881",
     "coordinates": {
         "latitude": -2.528967,
@@ -1251,7 +1251,7 @@ universities=[{
     "recommendation": {},
     "name": "St. Joseph University In Tanzania",
     "acronym":"SJUIT",
-    "reg no":"023",
+    "reg_no":"023",
     "phoneNumber": "+255673287723",
     "coordinates": {
         "latitude": -6.791932,
@@ -1303,7 +1303,7 @@ universities=[{
     "recommendation": {},
     "name": "United African University of Tanzania",
     "acronym":"UAUT",
-    "reg no":"024",
+    "reg_no":"024",
     "phoneNumber": "+255684505012",
     "coordinates": {
         "latitude": -6.870540,
@@ -1355,7 +1355,7 @@ universities=[{
     "recommendation": {},
     "name": "Sebastian Kolowa Memorial University",
     "acronym":"SEKOMU",
-    "reg no":"027",
+    "reg_no":"027",
     "phoneNumber": "+255272977003",
     "coordinates": {
         "latitude": -4.751147,
@@ -1407,7 +1407,7 @@ universities=[{
     "recommendation": {},
     "name": "Kampala International University In Tanzania",
     "acronym":"KIUT",
-    "reg no":"028",
+    "reg_no":"028",
     "phoneNumber": "+255782777775",
     "coordinates": {
         "latitude": -6.886429,
@@ -1459,7 +1459,7 @@ universities=[{
     "recommendation": {},
     "name": "University of Iringa",
     "acronym":"UoI",
-    "reg no":"030",
+    "reg_no":"030",
     "phoneNumber": "+255743802615",
     "coordinates": {
         "latitude": -7.741308,
