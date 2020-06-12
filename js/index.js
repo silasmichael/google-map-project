@@ -60,8 +60,8 @@ function createMarker(latlng, name, address,phoneNumber,acronym,website) {
     <div class="info-acronym">(${acronym})</div>
     <div class="info-website">
      <div class = "circle">
-        <i class="fa fa-internet-explorer" aria-hidden="true"></i>
-      </div>${website}
+        <i class="fa fa-internet-explorer" aria-hidden="true" href="${website}"></i>
+      </div><a href="${website}">${website}</a>
     </div>
     <div class="info-phone">
       <div class = "circle">
