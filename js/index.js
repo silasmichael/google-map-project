@@ -8,17 +8,17 @@ function initMap() {
         center: {lat: -6.3690, lng: 34.8888},
     });
     infoWindow = new google.maps.InfoWindow;
-    displayuniversities();
-    displayuniversitiesMarker();
+    search();
+
 }
 
-function displayuniversities() {
+function displayuniversities(uni) {
     var universitiesHtml = "";
-    universities.forEach(function(universities, index){
-        var name = universities.name;
-        var acronym = universities.acronym;
-        var phone = universities.phoneNumber;
-        var reg = universities.reg_no;
+    uni.forEach(function(un, index){
+        var name = un.name;
+        var acronym = un.acronym;
+        var phone = un.phoneNumber;
+        var reg = un.reg_no;
         universitiesHtml += `
         <div class="adress-container">
             <div class="universities-adress">
@@ -37,18 +37,21 @@ function displayuniversities() {
 ;     
 }
 
-function displayuniversitiesMarker(){
-  universities.forEach(function(university,index){
+function displayuniversitiesMarker(uni){
+  var bounds = new google.maps.LatLngBounds();
+  uni.forEach(function(un,index){
     var latlng = new google.maps.LatLng(
-      university.coordinates.latitude,
-      university.coordinates.longitude);
-      var name = university.name;
-      var adress = university.address;
-      var phoneNumber = university.phoneNumber;
-      var acronym = university.acronym;
-      var website = university.website;
+      un.coordinates.latitude,
+      un.coordinates.longitude);
+      var name = un.name;
+      var adress = un.address;
+      var phoneNumber = un.phoneNumber;
+      var acronym = un.acronym;
+      var website = un.website;
+      bounds.extend(latlng);
       createMarker(latlng,name,adress,phoneNumber,acronym,website)
   })
+  map.fitBounds(bounds);
 }
 function createMarker(latlng, name, address,phoneNumber,acronym,website) {
   var html = `
@@ -79,6 +82,47 @@ function createMarker(latlng, name, address,phoneNumber,acronym,website) {
   });
   markers.push(marker);
 }
+
+function search() {
+  var found = [];
+  var search = document.getElementById('uni-search').value;
+  if (search) {
+    universities.forEach(function(uni){
+      if(search.toUpperCase()===uni.region.toUpperCase()){
+        found.push(uni);
+      }else if (search.toUpperCase()===uni.name.toUpperCase()){
+        found.push(uni);
+      }else if (search===uni.reg_no){
+        found.push(uni);
+      } 
+    })
+  } else{
+    found=universities
+  }
+  clearLocations()
+  displayuniversities(found);
+  displayuniversitiesMarker(found);
+  setOnClickListener();
+}
+
+function clearLocations() {
+  infoWindow.close();
+  for (var i = 0; i < markers.length; i++) {
+    markers[i].setMap(null);
+  }
+  markers.length = 0;
+}
+
+
+function setOnClickListener() {
+  var Elements = document.querySelectorAll('.adress-list');
+  Elements.forEach(function(elem, index){
+      elem.addEventListener('click', function(){
+          google.maps.event.trigger(markers[index], 'click');
+      })
+  });
+}
+
 
 function yourLocation() {
   if (navigator.geolocation) {

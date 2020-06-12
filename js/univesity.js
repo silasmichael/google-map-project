@@ -12,7 +12,7 @@ universities=[{
     "open": true,
     "openStatusText": "Open until 9:00 PM",
     "region": "Dar es Salaam",
-    "address":"Dar es Salaam",
+    "address":"University RD,Dar es Salaam",
     "schedule": [{
         "dayName": "Today",
         "hours": "5:00 AM to 9:00 PM",
@@ -734,8 +734,8 @@ universities=[{
     "reg_no":"008",
     "phoneNumber": "+255736200943",
     "coordinates": {
-        "latitude": -6.923931,
-        "longitude": 37.569069
+        "latitude": -2.613914,
+        "longitude": 32.883878
     },
     "website":"https://st-augustine-university-of-tanzania.business.site/?utm_source=gmb&utm_medium=referral",
     "open": true,

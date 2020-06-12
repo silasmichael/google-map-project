@@ -33,7 +33,6 @@ body {
     z-index: 30;
 }
 .search-box-container{
-    width: 319px;
     height: 50px;
     background-color: #454E53;
     display: flex;
@@ -46,7 +45,7 @@ body {
 }
 .search-box-container input {
     width: 100%;
-    font-size: 25px;
+    font-size: 14px;
     border: none;
     background-color: transparent;
     color: white;
@@ -64,7 +63,6 @@ body {
 }
 .adress-list{
     background-color: white;
-    width: 325px;
     height: 75vh;
     overflow-y: scroll;
     padding-left: 10px;
