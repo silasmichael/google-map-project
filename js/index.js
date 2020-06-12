@@ -115,7 +115,8 @@ function clearLocations() {
 
 
 function setOnClickListener() {
-  var Elements = document.querySelectorAll('.adress-list');
+  var Elements = document.querySelectorAll('.adress-container');
+  console.log(Elements)
   Elements.forEach(function(elem, index){
       elem.addEventListener('click', function(){
           google.maps.event.trigger(markers[index], 'click');
