@@ -59,17 +59,21 @@ function createMarker(latlng, name, address,phoneNumber,acronym,website) {
     <div class="info-name">${name}</div>
     <div class="info-acronym">(${acronym})</div>
     <div class="info-website">
-     <div class = "circle">
-        <i class="fa fa-internet-explorer" aria-hidden="true" href="${website}"></i>
-      </div><a href="${website}">${website}</a>
+      <a href="${website}">
+        <div class = "circle">
+          <i class="fa fa-internet-explorer" aria-hidden="true"></i>
+        </div>${website}
+      </a>
     </div>
     <div class="info-phone">
       <div class = "circle">
         <i class="fa fa-phone" aria-hidden="true"></i></div>${phoneNumber}
     </div>
     <div class="info-adress">
+    <a href ="https://maps.googleapis.com/maps/api/directions/json?origin=Toronto&destination=Montreal&key=AIzaSyC9IhRvPd1ceNMUhjQYtPKhM05eMBYTjMQ">
       <div class = "circle">
         <i class="fa fa-location-arrow" aria-hidden="true"></i></div>${address}
+    </a>
   </div>
   `;
   var marker = new google.maps.Marker({
